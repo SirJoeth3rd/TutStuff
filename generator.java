@@ -6,12 +6,8 @@ public class generator {
         PrintStream ints = new PrintStream(new File("ints.txt"));
 	PrintStream strings = new PrintStream(new File("strings.txt"));
         PrintStream doubles = new PrintStream(new File("doubles.txt"));
-	
         PrintStream console = System.out; 
-  
-        System.setOut(ints); 
- //       System.out.println("This will be written to the text file"); 
-  	
+	
 	int num = 0;
 	for(int i = 0;i < 200000;i++){
 		String SI = "";
